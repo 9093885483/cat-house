@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошкин Дом</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Жители</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Кошки</a>
+          <a href="#">собаки</a>
+          <a href="#">Грызуны</a>
+        </div>
+      </div>
+<h1>Добро пожаловать в зоогостиницу "кошкин дом"</h1>
+<p> Мы предоставлем услуги для домашних животных. Здесь  вы можете оставить своего питомца и отправиться по своим делам не беспокоясь о нем. </p>
+    <main>
+        <h1 class="page-title">Наши жильцы</h1>
+        <div class="slider-container">
+        <div class="slider">
+          <img src="https://i.postimg.cc/nhsTGkLQ/1.png" alt="Белый пушистый кот">
+          <img src="https://i.postimg.cc/cLVh9nKk/2.png" alt="Рыжий пушистый кот в джинсах">
+          <img src="https://i.postimg.cc/4NxWmZkP/3.png" alt="Бело-рыжий пушистый кот">
+          <img src="https://i.postimg.cc/FFZPrzq1/8.png" alt="Золотистый пушистый кот">
+          <img src="https://i.postimg.cc/jd3Zf9Rb/7.png" alt="Золотистый пушистый кот">
+        </div>
+        <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+        <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
+      </div>
+      </main>
+      
+      <script src="script.JS"></script>
+    
+      <form id="feedbackForm">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" required></textarea>
+      
+        <button type="submit">Отправить</button>
+      </form> 
+</body>
+</html>
